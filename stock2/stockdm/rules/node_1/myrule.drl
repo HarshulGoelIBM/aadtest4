@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>myrule</name>
+  <uuid>8801e431-7902-43cd-bd5a-2414729ab02b</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    Input is "IBM" or Input is "ibm"
+then
+    set decision to "Good stock";
+else
+    set decision to "Bad stock";
+]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
